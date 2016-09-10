@@ -16,10 +16,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
+.navbar-default
+{
+	background-color: black;
+}
 .navbar-default .navbar-nav > li > a
 {
-    color: red;
+    color: white;
     font-weight: bold;
 }
 .navbar-brand.page-scroll
@@ -46,4 +49,18 @@ p.baseline
     text-align: center;
     font-weight: 700;
     font-size: 40px;
+}
+.btn-lg
+{
+margin-top:20px;
+color: #fff;
+background-color: #d94949;
+
+}
+
+.navbar-right a.companyLink {
+    background-color: #4697ce;
+    color: #FFF;
+    border-radius: 6px !important;
+    letter-spacing: 0.07em;
 }
