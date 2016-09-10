@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.navbar-default .navbar-nav > li > a
+{
+    color: red;
+    font-weight: bold;
+}
+.navbar-brand.page-scroll
+{
+    color: #d94949;
+    font-size: 30px;
+    font-weight: bold;  
+}
+p.baseline
+{
+    margin-top: 50px;
+    font-size:26px;
+    font-family: 'proxima-nova-semibold';
+    text-align: center;
+    font-size: 26px;
+    color: black;
+}
+.slogan
+{
+	margin-top: 150px;
+    margin-bottom: 50px;
+    font-family: 'proxima-nova-semibold';
+    color: red;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
